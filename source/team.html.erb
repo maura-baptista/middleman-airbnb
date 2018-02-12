@@ -1,0 +1,15 @@
+
+<div></div>
+  <h4 class="text-center" > This page is made with <i class="fa fa-heart color-red"></i> by Maura Baptista</h4>
+
+  <ul class="list-inline text-center">
+    <% ["maura-baptista", "jedhana"].each do |gh_username| %>
+      <li>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle img-width" %>
+        <h3><%= gh_username.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
+
